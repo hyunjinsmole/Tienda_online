@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(61, 47, 254);
+}
+
+h1, h4{
+
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    color: #101010;
+    text-align: center;
+    text-transform: uppercase; /* En mayúsculas */
+
+}
+
+h4{
+    font-size: 20px;
+}
+
+#guitarra1{
+    width: 250px;
+    height: 300px;
+}
+
+#guitarra2{
+    width: 300px;
+    height: 300px;
+}
+
+#guitarra3{
+    width: 300px;
+    height: 300px;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(41, 29, 199);
+    padding: 20px;
+    border-radius:10px;
+}
+
+.info{
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color: white; 
+    background-color: rgb(41, 29, 199);
+    padding: 20px;
+    border-radius:10px;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(41, 29, 199);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(205, 189, 254);
+    text-decoration: none;
+}
+
